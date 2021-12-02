@@ -1,0 +1,237 @@
+
+°>!src/main/scala/depth_change.scala*/
+_empty_/depth_change$package. *_empty_€*E
+._empty_/depth_change$package.calculateDepth().*calculateDepth€*
+local0 €*filename€*
+local1 €*
+inputArray€*
+local2 €*firstElement€*
+local3 €*rest€*
+local4 €*e1€*
+local5 €*e2€*
+local6 €*e3€*
+local7 €*rest€*/
+#_empty_/depth_change$package.foo().*foo€*8
+*_empty_/depth_change$package.foo().(accum)*accum€*J
+3_empty_/depth_change$package.foo().(currentElement)*currentElement€*@
+._empty_/depth_change$package.foo().(remaining)*	remaining€*
+local8 €*e€*
+local9 €*rest€*
+local10 €*e€*
+local11 €*rest€*/
+#_empty_/depth_change$package.bar().*bar€*8
+*_empty_/depth_change$package.bar().(accum)*accum€*B
+/_empty_/depth_change$package.bar().(currentSum)*
+currentSum€*@
+._empty_/depth_change$package.bar().(remaining)*	remaining€*
+local12 €*e1€*
+local13 €*e2€*
+local14 €*e3€*
+local15 €*rest€*
+local16 €*e1€*
+local17 €*e2€*
+local18 €*e3€*
+local19 €*rest€*0
+_empty_/calculateDepth# *calculateDepth€*4
+"_empty_/calculateDepth#`<init>`(). €@*<init>€*.
+_empty_/calculateDepth#main(). € *main€*1
+$_empty_/calculateDepth#main().(args)*args€*
+local20 €*error€2
+ scala/io/Source.2
+ scala/io/Source#2
+ 	scala/io/2
+ scala/2'
+ scala/annotation/tailrec#2
+ scala/annotation/2
+ scala/2'
+ scala/annotation/tailrec#2
+ scala/annotation/2
+ scala/2
+ scala/math/2
+ scala/2'
+_empty_/depth_change$package.2
+ scala/main#2<
+
+ ._empty_/depth_change$package.calculateDepth().2
+ scala/Unit#2
+ local02
+ local124
+A D&scala/collection/immutable/List#map().28
+: @*scala/collection/IterableOnceOps#toList().21
+1 9#scala/io/BufferedSource#getLines().2-
+ &scala/io/Source.fromResource().2
+ scala/io/Source.2
+' /local02E
+0 07scala/io/LowPriorityCodecImplicits#fallbackSystemCodec.21
+G L#scala/collection/StringOps#toInt().2+
+E Escala/Predef.augmentString().2
+ local128
+		 *scala/collection/immutable/`::`.unapply().2!
+		 scala/package.`::`.2
+			 local22
+		 local32'
+
+
+ scala/Predef.println(+1).21
+
+
+ #_empty_/depth_change$package.foo().28
+
+
+ *_empty_/depth_change$package.foo().(accum)2A
+
+
+ +3_empty_/depth_change$package.foo().(currentElement)2
+
+.
+ :local22<
+
+<
+ E._empty_/depth_change$package.foo().(remaining)2
+
+H
+ Llocal32'
+ scala/Predef.println(+1).2
+ local128
+ *scala/collection/immutable/`::`.unapply().2!
+ scala/package.`::`.2
+	 local428
+ *scala/collection/immutable/`::`.unapply().2!
+ scala/package.`::`.2
+ local528
+ *scala/collection/immutable/`::`.unapply().2!
+ scala/package.`::`.2
+ local62
+ local72'
+ scala/Predef.println(+1).21
+ #_empty_/depth_change$package.bar().25
+& )'scala/collection/IterableOnceOps#sum().27
+ )scala/collection/IterableFactory#apply().2!
+ scala/package.List.2
+ local42
+  local52
+" $local62/
+) )!scala/math/Numeric.IntIsIntegral.25
+; ;'scala/collection/immutable/List#`::`().2
+7 ;local72
+1 3local62
++ -local52'
+ scala/Predef.println(+1).2'
+ scala/annotation/tailrec#21
+ #_empty_/depth_change$package.foo().28
+ *_empty_/depth_change$package.foo().(accum)2
+ 
+scala/Int#2A
+ +3_empty_/depth_change$package.foo().(currentElement)2
+- 0
+scala/Int#2<
+2 ;._empty_/depth_change$package.foo().(remaining)2!
+= Ascala/package.List#2
+B E
+scala/Int#2
+I L
+scala/Int#2<
+ ._empty_/depth_change$package.foo().(remaining)2 
+	 scala/package.Nil.28
+, 1*_empty_/depth_change$package.foo().(accum)28
+ *scala/collection/immutable/`::`.unapply().2!
+ scala/package.`::`.2
+	 
+local82
+ local92 
+ scala/Int#`>`(+3).2
+ local82A
+ (3_empty_/depth_change$package.foo().(currentElement)21
+, /#_empty_/depth_change$package.foo().2 
+6 7scala/Int#`+`(+4).28
+0 5*_empty_/depth_change$package.foo().(accum)2
+; <local82
+> Blocal928
+ *scala/collection/immutable/`::`.unapply().2!
+ scala/package.`::`.2
+	 
+local102
+ local1121
+, /#_empty_/depth_change$package.foo().28
+0 5*_empty_/depth_change$package.foo().(accum)2
+7 8local102
+: >local112'
+ scala/annotation/tailrec#21
+ #_empty_/depth_change$package.bar().28
+ *_empty_/depth_change$package.bar().(accum)2
+ 
+scala/Int#2=
+ '/_empty_/depth_change$package.bar().(currentSum)2
+) ,
+scala/Int#2<
+. 7._empty_/depth_change$package.bar().(remaining)2!
+9 =scala/package.List#2
+> A
+scala/Int#2
+E H
+scala/Int#2<
+ ._empty_/depth_change$package.bar().(remaining)28
+ *scala/collection/immutable/`::`.unapply().2!
+ scala/package.`::`.2
+	 local1228
+ *scala/collection/immutable/`::`.unapply().2!
+ scala/package.`::`.2
+ local1328
+ *scala/collection/immutable/`::`.unapply().2!
+ scala/package.`::`.2
+ local142
+ local152 
+8 9scala/Int#`>`(+3).25
+4 7'scala/collection/IterableOnceOps#sum().27
+' ')scala/collection/IterableFactory#apply().2!
+# 'scala/package.List.2
+( *local122
+, .local132
+0 2local142/
+7 7!scala/math/Numeric.IntIsIntegral.2=
+: D/_empty_/depth_change$package.bar().(currentSum)21
+ 	#_empty_/depth_change$package.bar().2 
+ scala/Int#`+`(+4).28
+
+ *_empty_/depth_change$package.bar().(accum)25
+& )'scala/collection/IterableOnceOps#sum().27
+ )scala/collection/IterableFactory#apply().2!
+ scala/package.List.2
+ local122
+  local132
+" $local142/
+) )!scala/math/Numeric.IntIsIntegral.25
+; ;'scala/collection/immutable/List#`::`().2
+7 ;local152
+1 3local142
++ -local1328
+ *scala/collection/immutable/`::`.unapply().2!
+ scala/package.`::`.2
+	 local1628
+ *scala/collection/immutable/`::`.unapply().2!
+ scala/package.`::`.2
+ local1728
+ *scala/collection/immutable/`::`.unapply().2!
+ scala/package.`::`.2
+ local182
+ local1921
+ 	#_empty_/depth_change$package.bar().28
+
+ *_empty_/depth_change$package.bar().(accum)25
+" %'scala/collection/IterableOnceOps#sum().27
+ )scala/collection/IterableFactory#apply().2!
+ scala/package.List.2
+ local162
+ local172
+  local182/
+% %!scala/math/Numeric.IntIsIntegral.25
+7 7'scala/collection/immutable/List#`::`().2
+3 7local192
+- /local182
+' )local1728
+ *_empty_/depth_change$package.bar().(accum)2!
+_empty_/calculateDepth#2,
+"_empty_/calculateDepth#`<init>`().28
+._empty_/depth_change$package.calculateDepth().23
+)scala/util/CommandLineParser.showError().2
+local20PZ 4BCF520DB4B2711D22F4E05722101DB4

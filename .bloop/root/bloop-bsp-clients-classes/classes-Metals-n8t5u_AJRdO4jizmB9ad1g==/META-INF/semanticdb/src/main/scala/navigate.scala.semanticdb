@@ -1,0 +1,264 @@
+
+†Hsrc/main/scala/navigate.scala*%
+_empty_/Position# €*Position€*.
+_empty_/Position#`<init>`(). €@*<init>€*>
+(_empty_/Position#`<init>`().(horizontal) €*
+horizontal€*4
+#_empty_/Position#`<init>`().(depth) €*depth€*0
+!_empty_/Position#`<init>`().(aim) €*aim€*2
+_empty_/Position#horizontal. €*
+horizontal€*(
+_empty_/Position#depth. €*depth€*$
+_empty_/Position#aim. €*aim€*%
+_empty_/Position#copy().*copy€*7
+$_empty_/Position#copy().(horizontal)*
+horizontal€*-
+_empty_/Position#copy().(depth)*depth€*)
+_empty_/Position#copy().(aim)*aim€*9
+"_empty_/Position#copy$default$1().*copy$default$1€*9
+"_empty_/Position#copy$default$2().*copy$default$2€*9
+"_empty_/Position#copy$default$3().*copy$default$3€*!
+_empty_/Position#_1().*_1€*!
+_empty_/Position#_2().*_2€*!
+_empty_/Position#_3().*_3€*$
+_empty_/Position.
+ *Position€*'
+_empty_/Position.apply().*apply€*8
+%_empty_/Position.apply().(horizontal)*
+horizontal€*.
+ _empty_/Position.apply().(depth)*depth€**
+_empty_/Position.apply().(aim)*aim€*+
+_empty_/Position.unapply().*unapply€*,
+ _empty_/Position.unapply().(x$1)*x$1€*-
+_empty_/Position.toString().*toString€*(
+_empty_/Direction# ”€*	Direction€*/
+_empty_/Direction#`<init>`(). €@*<init>€*&
+_empty_/Direction.
+ *	Direction€*.
+_empty_/Direction.Forward. €©*Forward€*$
+_empty_/Direction.Up. €©*Up€*(
+_empty_/Direction.Down. €©*Down€*-
+_empty_/Direction.$values. €*$values€**
+_empty_/Direction.values().*values€*,
+_empty_/Direction.valueOf().*valueOf€*1
+#_empty_/Direction.valueOf().($name)*$name€*&
+_empty_/Direction.$new().*$new€*6
+$_empty_/Direction.$new().(_$ordinal)*	_$ordinal€*.
+ _empty_/Direction.$new().($name)*$name€*4
+ _empty_/Direction.fromOrdinal().*fromOrdinal€*9
+)_empty_/Direction.fromOrdinal().(ordinal)*ordinal€*+
+_empty_/navigate$package. *_empty_€*5
+$_empty_/navigate$package.navigate().*navigate€*
+local0 €*filename€*
+local1 €*
+inputArray€*
+local2*line€*
+local3 €*key€*
+local4 €*	magnitude€*"
+local5 €*startingPosition€*
+local6 €*finalPosition€*G
+-_empty_/navigate$package.calculatePosition().*calculatePosition€*V
+>_empty_/navigate$package.calculatePosition().(currentPosition)*currentPosition€*^
+B_empty_/navigate$package.calculatePosition().(remainingDirections)*remainingDirections€*
+local7 €*	magnitude€*
+local8 €*rest€*
+local9 €*newPosition€*
+local10 €*	magnitude€*
+local11 €*rest€*
+local12 €*newPosition€*
+local13 €*aim$1€*
+local14 €*horizontal$1€*
+local15 €*depth$1€*
+local16 €*	magnitude€*
+local17 €*rest€*
+local18 €*newPosition€*
+local19 €*aim$2€*
+local20 €*horizontal$2€*
+local21 €*depth$2€*$
+_empty_/navigate# *navigate€*.
+_empty_/navigate#`<init>`(). €@*<init>€*(
+_empty_/navigate#main(). € *main€*+
+_empty_/navigate#main().(args)*args€*
+local22 €*error€2
+ scala/io/Source.2
+ scala/io/Source#2
+ 	scala/io/2
+ scala/2'
+ scala/annotation/tailrec#2
+ scala/annotation/2
+ scala/2
+,, _empty_/Position#2*
+,, _empty_/Position#`<init>`().2
+, , #
+scala/Int#2
+,,, /
+scala/Int#2
+,6, 9
+scala/Int#2*
+,, _empty_/Position#horizontal.2%
+,%, *_empty_/Position#depth.2#
+,1, 4_empty_/Position#aim.2 
+.. _empty_/Direction#2+
+// _empty_/Direction#`<init>`().2(
+// _empty_/Direction.Forward.2#
+// _empty_/Direction.Up.2%
+// _empty_/Direction.Down.2#
+_empty_/navigate$package.2
+ scala/main#22
+
+ $_empty_/navigate$package.navigate().2
+ scala/Unit#2
+ local02
+ local124
+
+
+ 
+&scala/collection/immutable/List#map().28
+		 *scala/collection/IterableOnceOps#toList().21
+ #scala/io/BufferedSource#getLines().2-
+ scala/io/Source.fromResource().2
+ 
+scala/io/Source.2
+ local02E
+ 7scala/io/LowPriorityCodecImplicits#fallbackSystemCodec.2
+
+
+ local228
+4 :*scala/collection/IterableOnceOps#toList().28
+$ $*scala/LowPriorityImplicits#wrapRefArray().2)
+) .java/lang/String#split(+1).2
+$ (local228
+ *scala/collection/immutable/`::`.unapply().2!
+ scala/package.`::`.28
+ *scala/collection/immutable/`::`.unapply().2!
+ scala/package.`::`.2
+ local32
+ local42#
+	 	scala/Tuple2.apply().2*
+ _empty_/Direction.valueOf().2 
+	 _empty_/Direction.26
+ )(scala/collection/StringOps#capitalize().2+
+ scala/Predef.augmentString().2
+ local321
+6 ;#scala/collection/StringOps#toInt().2+
+, ,scala/Predef.augmentString().2
+, 5local42
+ local52'
+! !_empty_/Position.apply().2
+ !_empty_/Position.2
+ local62;
+ '-_empty_/navigate$package.calculatePosition().2
+( 8local52
+: Dlocal12'
+ 	scala/Predef.println(+1).2(
+
+ˆ ‰scala/StringContext#s().2*
+ scala/StringContext.apply().2*
+" ,_empty_/Position#horizontal.2
+ !local62%
+F K_empty_/Position#depth.2
+8 Elocal62 
+r sscala/Int#`*`(+3).2*
+g q_empty_/Position#horizontal.2
+Y flocal62'
+
+‚ ‡_empty_/Position#depth.2
+	t local62'
+ scala/annotation/tailrec#2;
+ -_empty_/navigate$package.calculatePosition().2L
+ >_empty_/navigate$package.calculatePosition().(currentPosition)2
+ _empty_/Position#2P
+ B_empty_/navigate$package.calculatePosition().(remainingDirections)2!
+ scala/package.List#2 
+ (_empty_/Direction#2
+* -
+scala/Int#2
+ _empty_/Position#2P
+ B_empty_/navigate$package.calculatePosition().(remainingDirections)28
+* **scala/collection/immutable/`::`.unapply().2!
+( *scala/package.`::`.2%
+
+ 
+scala/Tuple2.unapply().2(
+ _empty_/Direction.Forward.2 
+
+ _empty_/Direction.2
+ &local72
++ /local82
+
+ local92&
+ _empty_/Position#copy().2L
+ >_empty_/navigate$package.calculatePosition().(currentPosition)22
+
+ $_empty_/Position#copy().(horizontal)2 
+2 3scala/Int#`+`(+4).2*
+' 1_empty_/Position#horizontal.2L
+ &>_empty_/navigate$package.calculatePosition().(currentPosition)2
+4 =local72-
+
+ _empty_/Position#copy().(depth)2 
+( )scala/Int#`+`(+4).2%
+" '_empty_/Position#depth.2L
+ !>_empty_/navigate$package.calculatePosition().(currentPosition)2 
+? @scala/Int#`*`(+3).2#
+; >_empty_/Position#aim.2L
++ :>_empty_/navigate$package.calculatePosition().(currentPosition)2
+A Jlocal72;
+!! -_empty_/navigate$package.calculatePosition().2
+!! #local92
+!%! )local828
+"%" %*scala/collection/immutable/`::`.unapply().2!
+"#" %scala/package.`::`.2%
+"
+" 
+scala/Tuple2.unapply().2#
+"" _empty_/Direction.Up.2 
+"
+" _empty_/Direction.2
+"" !local102
+"&" *local112
+#
+# local122&
+$$ _empty_/Position#copy().2L
+$$ >_empty_/navigate$package.calculatePosition().(currentPosition)2
+$$ local142
+$$ local152+
+$$  _empty_/Position#copy().(aim)2 
+$7$ 8scala/Int#`-`(+3).2#
+$3$ 6_empty_/Position#aim.2L
+$#$ 2>_empty_/navigate$package.calculatePosition().(currentPosition)2
+$9$ Blocal102;
+%% -_empty_/navigate$package.calculatePosition().2
+%% #local122
+%%% )local1128
+&'& '*scala/collection/immutable/`::`.unapply().2!
+&%& 'scala/package.`::`.2%
+&
+& 
+scala/Tuple2.unapply().2%
+&& _empty_/Direction.Down.2 
+&
+& _empty_/Direction.2
+&& #local162
+&(& ,local172
+'
+' local182&
+(( _empty_/Position#copy().2L
+(( >_empty_/navigate$package.calculatePosition().(currentPosition)2
+(( local202
+(( local212+
+((  _empty_/Position#copy().(aim)2 
+(7( 8scala/Int#`+`(+4).2#
+(3( 6_empty_/Position#aim.2L
+(#( 2>_empty_/navigate$package.calculatePosition().(currentPosition)2
+(9( Blocal162;
+)) -_empty_/navigate$package.calculatePosition().2
+)) #local182
+)%) )local172 
+*	* scala/package.Nil.2L
+** >_empty_/navigate$package.calculatePosition().(currentPosition)2
+_empty_/navigate#2&
+_empty_/navigate#`<init>`().2.
+$_empty_/navigate$package.navigate().23
+)scala/util/CommandLineParser.showError().2
+local22PZ B8C7DE40D947452B1FE0C3DB08AF8183
